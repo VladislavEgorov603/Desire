@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <nav class="menu">
+                    <ul class="menu__list">
+                        <li class="menu__item">
+                            <a href="./about.html" class="menu__item-link">About</a>
+                        </li>
+                        <li class="menu__item menu__item_active">
+                            <a href="./gallery.html" class="menu__item-link">Gallery</a>
+                        </li>
+                    </ul>
+                </nav>
+                <a href="./index.html" class="logo"><img src="./images/logo.png" alt="logo"></a>
+                <nav class="menu">
+                    <ul class="menu__list">
+                        <li class="menu__item">
+                            <a href="./blog.html" class="menu__item-link">Blog</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="./contact.html" class="menu__item-link">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+                <button class="header__button"><img src="./images/icon_menu.svg" alt="icon menu"></button>
+                <div class="header__drop-menu">
+                    <ul class="header__drop-list">
+                        <li class="header__drop-item"><a href="#" class="header__drop-link">Delivery</a></li>
+                        <li class="header__drop-item"><a href="#" class="header__drop-link">FAQ</a></li>
+                        <li class="header__drop-item"><a href="#" class="header__drop-link">Help</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="breadcrumbs">
+            <div class="container">
+                <a href="./index.html" class="breadcrumbs__link">Home</a>/ 
+                <a href="./gallery.html" class="breadcrumbs__link">Gallery</a>
+            </div>
+        </div>
+    </header>
+
+    <div class="wrapper">
+        <main class="main">
+
+            <div class="gallery-site">
+                <ul class="gallery__menu">
+                    <li class="gallery__menu-item"><button class="gallery__menu-button gallery__menu-button_not-active">Bedroom furniture</button></li>
+                    <li class="gallery__menu-item"><button class="gallery__menu-button gallery__menu-button_active">Living room furniture</button></li>
+                    <li class="gallery__menu-item"><button class="gallery__menu-button gallery__menu-button_not-active">Office furniture</button></li>
+                    <li class="gallery__menu-item"><button class="gallery__menu-button gallery__menu-button_not-active">Dining room futniture</button></li>
+                    <li class="gallery__menu-item"><button class="gallery__menu-button gallery__menu-button_not-active">Chair</button></li>
+                </ul>
+                <div class="gallery__box">
+                    <div class="gallery__column">
+                        <img src="./images/gallery-1.jpg" alt="-" class="gallery__image gallery__image_focus">
+                    </div>
+                    <div class="gallery__column">
+                        <div class="gallery__row">
+                            <img src="./images/gallery-2.jpg" alt="-" class="gallery__image">
+                            <img src="./images/gallery-3.jpg" alt="-" class="gallery__image">
+                        </div>
+                        <div class="gallery__row">
+                            <img src="./images/gallery-4.jpg" alt="-" class="gallery__image">
+                            <img src="./images/gallery-5.jpg" alt="-" class="gallery__image">
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery__box">
+                    <div class="gallery__column">
+                        <div class="gallery__row">
+                            <img src="./images/gallery-2.jpg" alt="-" class="gallery__image">
+                            <img src="./images/gallery-3.jpg" alt="-" class="gallery__image">
+                        </div>
+                        <div class="gallery__row">
+                            <img src="./images/gallery-4.jpg" alt="-" class="gallery__image">
+                            <img src="./images/gallery-5.jpg" alt="-" class="gallery__image">
+                        </div>
+                    </div>
+                    <div class="gallery__column">
+                        <img src="./images/gallery-1.jpg" alt="-" class="gallery__image gallery__image_focus">
+                    </div>
+                </div>
+            </div>
+
+        </main>
+        <footer class="footer">
+            <div class="footer__content">
+                <div class="container">
+                    <div class="footer__inner">
+                        <div class="footer__info">
+                            <h6 class="footer__title">
+                                Contact Us
+                            </h6>
+                            <p class="footer__info-text">
+                                Keffiyeh poutine etsy, paleo cray put a bird on it microdosing schlitz you probably occupy
+                            </p>
+                            <a class="footer__info-email" href="mailto:ouremailaddress@email.com">
+                                ouremailaddress@email.com
+                            </a>
+                            <form class="footer__form">
+                                <input class="footer__form-input" type="email" placeholder="Subscribe by email">
+                                <button class="footer__form-button" type="submit">
+                                    Send
+                                </button>
+                            </form>
+                        </div>
+                        <ul class="footer__social">
+                            <li class="footer__social-item"><a class="footer__social-link" href="#">Instagram</a></li>
+                            <li class="footer__social-item"><a class="footer__social-link" href="#">Pinterest</a></li>
+                            <li class="footer__social-item"><a class="footer__social-link" href="#">WhatsApp</a></li>
+                            <li class="footer__social-item"><a class="footer__social-link" href="#">Facebook</a></li>
+                            <li class="footer__social-item"><a class="footer__social-link" href="#">Youtube</a></li>
+                        </ul>
+                        <nav class="footer__menu">
+                            <ul class="footer__menu-list">
+                                <li class="footer__menu-item"><a class="footer__menu-link" href="#">Delivery</a></li>
+                                <li class="footer__menu-item"><a class="footer__menu-link" href="#">FAQ</a></li>
+                                <li class="footer__menu-item"><a class="footer__menu-link" href="#">Help</a></li>
+                                <li class="footer__menu-item"><a class="footer__menu-link" href="./about.html">More About Us</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__copyright">
+                674 Gonzales Drive.   Washington, PA 15301
+            </div>
+        </footer>
+    </div>
+    <script src="./js/main.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
