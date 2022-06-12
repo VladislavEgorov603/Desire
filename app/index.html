@@ -8,9 +8,13 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/style.min.css">
 </head>
 <body>
+    <div class="gallery__view">
+        <img src="" alt="" class="gallery__view-image">
+    </div>
+    
     <header class="header">
         <div class="container">
             <div class="header__inner">
@@ -49,7 +53,7 @@
 
     <div class="wrapper">
         <main class="main">
-            <div class="top">
+            <section class="top">
                 <div class="top__slider">
                     <div class="top__item">
                         <div class="top__item-content">
@@ -81,9 +85,9 @@
                     </div>
                 </div>
             
-            </div>
+            </section>
 
-            <div class="collections">
+            <section class="collections">
                 <div class="container">
                     <h2 class="collections__title">Furniture new collection</h2>
                     <span class="collections__text-decoration"></span>
@@ -131,9 +135,9 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </section>
 
-            <div class="slogan">
+            <section class="slogan">
                 <div class="container">
                     <div class="slogan__inner">
                         <h1 class="slogan__title">Aesthetic ethical drinking</h1>
@@ -141,9 +145,9 @@
                         <p class="slogan__text">Deep v you probably haven't heard of them banh mi synth actually affogato. Artlyft ethical the one drinking vinegar austint</p>
                     </div>
                 </div>
-            </div>
+            </section>
 
-            <div class="howit">
+            <section class="howit">
                 <h1 class="howit__title">How it works</h1>
                 <div class="container">
                     <div class="howit__inner">
@@ -177,9 +181,10 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </section>
 
-            <div class="gallery">
+            <section class="gallery">
+
                 <ul class="gallery__menu">
                     <li class="gallery__menu-item"><button class="gallery__menu-button gallery__menu-button_not-active">Bedroom furniture</button></li>
                     <li class="gallery__menu-item"><button class="gallery__menu-button gallery__menu-button_active">Living room furniture</button></li>
@@ -202,9 +207,9 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </section>
 
-            <div class="blog">
+            <section class="blog">
                 <div class="container">
                     <div class="blog__inner">
                         <h1 class="blog__title">More inspiration ideas in our blog</h1>
@@ -226,7 +231,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </section>
 
         </main>
         <footer class="footer">
@@ -274,6 +279,5 @@
         </footer>
     </div>
     <script src="./js/main.min.js"></script>
-    <script src="./js/main.js"></script>
 </body>
 </html>

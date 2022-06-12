@@ -8,6 +8,11 @@ html{
   box-sizing: inherit;
 }
 
+address {
+  font-style: normal;
+  display: inline-block;
+}
+
 ul[class],
 ol[class] {
   padding: 0;
