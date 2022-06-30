@@ -36,14 +36,19 @@
                     </ul>
                 </nav>
                 <button class="header__button"><img src="./images/icon_menu.svg" alt="icon menu"></button>
-                <div class="header__drop-menu">
+                
+            </div>
+            <div class="header__drop-menu">
                     <ul class="header__drop-list">
+                        <li class="header__drop-nav"><a href="./about.html" class="header__drop-link">About</a></li>
+                        <li class="header__drop-nav"><a href="./gallery.html" class="header__drop-link">Gallery</a></li>
+                        <li class="header__drop-nav"><a href="./blog.html" class="header__drop-link">Blog</a></li>
+                        <li class="header__drop-nav"><a href="./contact.html" class="header__drop-link">Contact</a></li>
                         <li class="header__drop-item"><a href="#" class="header__drop-link">Delivery</a></li>
                         <li class="header__drop-item"><a href="#" class="header__drop-link">FAQ</a></li>
                         <li class="header__drop-item"><a href="#" class="header__drop-link">Help</a></li>
                     </ul>
                 </div>
-            </div>
         </div>
         <div class="breadcrumbs">
             <div class="container">
@@ -67,14 +72,14 @@
                 </div>
             </section>
 
-            <section class="about__video">
-                <video class="about__video-player" width="100%" height="414" poster="./images/about-video-preview.png">
+            <div class="about__video">
+                <video class="about__video-player" height="414" poster="./images/about-video-preview.png">
                     <source src="./about-video.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
                     Тег video не поддерживается вашим браузером. 
                     <a href="./about-video.mp4">Скачайте видео</a>.
                 </video>
                 <button class="about__video-button" type="button" id="start-video"></button>
-            </section>
+            </div>
 
             <section class="about__details">
                 <div class="about__details-inner">
@@ -104,58 +109,78 @@
                 </div>
             </section>
 
-            <section class="about__brands">
-                <img src="./images/brand-1.svg" alt="brands-1" class="about__brands-item">
-                <img src="./images/brand-2.svg" alt="brands-2" class="about__brands-item">
-                <img src="./images/brand-1.svg" alt="brands-1" class="about__brands-item">
-                <img src="./images/brand-2.svg" alt="brands-2" class="about__brands-item">
-                <img src="./images/brand-1.svg" alt="brands-1" class="about__brands-item">
-            </section>
+            <div class="about__brands">
+                <div class="about__brands-item">
+                    <img src="./images/brand-1.svg" alt="brand" class="about__brands-image">
+                </div>
+                <div class="about__brands-item">    
+                    <img src="./images/brand-2.svg" alt="brand" class="about__brands-image">
+                </div>
+                <div class="about__brands-item">    
+                    <img src="./images/brand-1.svg" alt="brand" class="about__brands-image">
+                </div>
+                <div class="about__brands-item">
+                    <img src="./images/brand-2.svg" alt="brand" class="about__brands-image">
+                </div>
+                <div class="about__brands-item">
+                    <img src="./images/brand-1.svg" alt="brand" class="about__brands-image">
+                </div>
+            </div>
 
-            <section class="about__collections">
+            <div class="about__collections">
                 <div class="collections__gallery">
                     <div class="collections__item">
-                        <img src="./images/collections-1.jpg" alt="" class="collections__item-image">
+                        <img src="./images/collections-1.jpg" alt="collection" class="collections__item-image">
                         <div class="collections__item-hover">
-                            <h3 class="collections__item-title">Truffaut literally trust</h3>
-                            <span class="collections__item-decoration"></span>
-                            <p class="collections__item-text">Living room furntiture | Chair</p>
+                            <div class="collections__item-description">
+                                <h3 class="collections__item-title">Truffaut literally trust</h3>
+                                <span class="collections__item-decoration"></span>
+                                <p class="collections__item-text">Living room furntiture | Chair</p>
+                            </div>
                         </div>
                     </div>
                     <div class="collections__item">
-                        <img src="./images/collections-2.jpg" alt="" class="collections__item-image">
+                        <img src="./images/collections-2.jpg" alt="collection" class="collections__item-image">
                         <div class="collections__item-hover">
-                            <h3 class="collections__item-title">Truffaut literally trust</h3>
-                            <span class="collections__item-decoration"></span>
-                            <p class="collections__item-text">Living room furntiture | Chair</p>
+                            <div class="collections__item-description">
+                                <h3 class="collections__item-title">Truffaut literally trust</h3>
+                                <span class="collections__item-decoration"></span>
+                                <p class="collections__item-text">Living room furntiture | Chair</p>
+                            </div>
                         </div>
                     </div>
                     <div class="collections__item">
-                        <img src="./images/collections-3.jpg" alt="" class="collections__item-image">
+                        <img src="./images/collections-3.jpg" alt="collection" class="collections__item-image">
                         <div class="collections__item-hover">
-                            <h3 class="collections__item-title">Truffaut literally trust</h3>
-                            <span class="collections__item-decoration"></span>
-                            <p class="collections__item-text">Living room furntiture | Chair</p>
+                            <div class="collections__item-description">
+                                <h3 class="collections__item-title">Truffaut literally trust</h3>
+                                <span class="collections__item-decoration"></span>
+                                <p class="collections__item-text">Living room furntiture | Chair</p>
+                            </div>
                         </div>
                     </div>
                     <div class="collections__item">
-                        <img src="./images/collections-4.jpg" alt="" class="collections__item-image">
+                        <img src="./images/collections-4.jpg" alt="collection" class="collections__item-image">
                         <div class="collections__item-hover">
-                            <h3 class="collections__item-title">Truffaut literally trust</h3>
-                            <span class="collections__item-decoration"></span>
-                            <p class="collections__item-text">Living room furntiture | Chair</p>
+                            <div class="collections__item-description">
+                                <h3 class="collections__item-title">Truffaut literally trust</h3>
+                                <span class="collections__item-decoration"></span>
+                                <p class="collections__item-text">Living room furntiture | Chair</p>
+                            </div>
                         </div>
                     </div>
                     <div class="collections__item">
-                        <img src="./images/collections-5.jpg" alt="" class="collections__item-image">
+                        <img src="./images/collections-5.jpg" alt="collection" class="collections__item-image">
                         <div class="collections__item-hover">
-                            <h3 class="collections__item-title">Truffaut literally trust</h3>
-                            <span class="collections__item-decoration"></span>
-                            <p class="collections__item-text">Living room furntiture | Chair</p>
+                            <div class="collections__item-description">
+                                <h3 class="collections__item-title">Truffaut literally trust</h3>
+                                <span class="collections__item-decoration"></span>
+                                <p class="collections__item-text">Living room furntiture | Chair</p>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </section>
+            </div>
 
 
 

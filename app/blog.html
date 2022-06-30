@@ -36,14 +36,19 @@
                     </ul>
                 </nav>
                 <button class="header__button"><img src="./images/icon_menu.svg" alt="icon menu"></button>
-                <div class="header__drop-menu">
+                
+            </div>
+            <div class="header__drop-menu">
                     <ul class="header__drop-list">
+                        <li class="header__drop-nav"><a href="./about.html" class="header__drop-link">About</a></li>
+                        <li class="header__drop-nav"><a href="./gallery.html" class="header__drop-link">Gallery</a></li>
+                        <li class="header__drop-nav"><a href="./blog.html" class="header__drop-link">Blog</a></li>
+                        <li class="header__drop-nav"><a href="./contact.html" class="header__drop-link">Contact</a></li>
                         <li class="header__drop-item"><a href="#" class="header__drop-link">Delivery</a></li>
                         <li class="header__drop-item"><a href="#" class="header__drop-link">FAQ</a></li>
                         <li class="header__drop-item"><a href="#" class="header__drop-link">Help</a></li>
                     </ul>
                 </div>
-            </div>
         </div>
         <div class="breadcrumbs">
             <div class="container">
@@ -61,7 +66,7 @@
                         <div class="blog-site__posts">
 
                             <article class="post">
-                                <img src="./images/blog-1.jpg" alt="-" class="post__img">
+                                <img src="./images/blog-1.jpg" alt="post image" class="post__img">
                                 <div class="post__description">
                                     <span class="post__date">August 15, 2020</span> | 
                                     <address class="post__autor"><a href="#" class="post__auto-linkr">by Ann Summers</a></address> | 
@@ -78,7 +83,7 @@
                             </div>
 
                             <article class="post">
-                                <img src="./images/blog-1.jpg" alt="-" class="post__img">
+                                <img src="./images/blog-1.jpg" alt="post image" class="post__img">
                                 <div class="post__description">
                                     <span class="post__date">August 15, 2020</span> | 
                                     <address class="post__autor" ><a href="#" class="post__autor-link">by Ann Summers</a></address> | 
@@ -88,7 +93,7 @@
                             </article>
 
                             <article class="post">
-                                <img src="./images/blog-1.jpg" alt="-" class="post__img">
+                                <img src="./images/blog-1.jpg" alt="post image" class="post__img">
                                 <div class="post__description">
                                     <span class="post__date">August 15, 2020</span> | 
                                     <address class="post__autor"><a href="#" class="post__autor-link">by Ann Summers</a></address> | 
@@ -109,60 +114,67 @@
 
 
 
-                    <aside class="blog-site__sidebar">
-                        <div class="sidebar__search">
-                            <input type="text" placeholder="Search" class="sidebar__search-input">
-                            <button class="sidebar__search-button"></button>
-                        </div>
+                    <aside class="blog-site__sidebar blog-site__sidebar_active">
+                        <div class="blog-site__sidebar-inner">
+
                         
-                        <div class="sidebar__categories">
-                            <h3 class="sidebar__categories-title">Categories</h3>
-                            <ul class="sidebar__categories-list">
-                                <li class="sidebar__categories-item"><a href="" class="sidebar__categories-item-link">Dining room (<span class="sidebar__categories-item-count">1</span>)</a></li>
-                                <li class="sidebar__categories-item"><a href="" class="sidebar__categories-item-link">Office furniture (<span class="sidebar__categories-item-count">12</span>)</a></li>
-                                <li class="sidebar__categories-item"><a href="" class="sidebar__categories-item-link">Simple interiror design (<span class="sidebar__categories-item-count">2</span>)</a></li>
-                                <li class="sidebar__categories-item"><a href="" class="sidebar__categories-item-link">Design (<span class="sidebar__categories-item-count">4</span>)</a></li>
-                                <li class="sidebar__categories-item"><a href="" class="sidebar__categories-item-link">Bedroom Furniture (<span class="sidebar__categories-item-count">1</span>)</a></li>
-                            </ul>
-                        </div>
-                        <div class="sidebar__posts">
-                            <h3 class="sidebar__posts-title">Recent Posts</h3>
-                            <div class="sidebar__posts-list">
-                                <div class="sidebar__posts-item">
-                                    <a href="./single-post.html" class="sidebar__posts-item-link">Cred selfies edison bulb four dollar toast humblebrag</a>
-                                    <div class="sidebar__posts-item-desc">
-                                        <span class="sidebar__posts-item-date">August 10, 2020</span> | <a href="#" class="sidebar__posts-item-autor">by Ann Summers</a>
+                            <div class="sidebar">
+                                <button class="sidebar__button"><span class="sidebar__button-text">Open</span></button>
+                                <div class="sidebar__search">
+                                    <input type="text" placeholder="Search" class="sidebar__search-input">
+                                    <button class="sidebar__search-button"></button>
+                                </div>
+                                
+                                <div class="sidebar__categories">
+                                    <h3 class="sidebar__categories-title">Categories</h3>
+                                    <ul class="sidebar__categories-list">
+                                        <li class="sidebar__categories-item"><a href="" class="sidebar__categories-item-link">Dining room (<span class="sidebar__categories-item-count">1</span>)</a></li>
+                                        <li class="sidebar__categories-item"><a href="" class="sidebar__categories-item-link">Office furniture (<span class="sidebar__categories-item-count">12</span>)</a></li>
+                                        <li class="sidebar__categories-item"><a href="" class="sidebar__categories-item-link">Simple interiror design (<span class="sidebar__categories-item-count">2</span>)</a></li>
+                                        <li class="sidebar__categories-item"><a href="" class="sidebar__categories-item-link">Design (<span class="sidebar__categories-item-count">4</span>)</a></li>
+                                        <li class="sidebar__categories-item"><a href="" class="sidebar__categories-item-link">Bedroom Furniture (<span class="sidebar__categories-item-count">1</span>)</a></li>
+                                    </ul>
+                                </div>
+                                <div class="sidebar__posts">
+                                    <h3 class="sidebar__posts-title">Recent Posts</h3>
+                                    <div class="sidebar__posts-list">
+                                        <div class="sidebar__posts-item">
+                                            <a href="./single-post.html" class="sidebar__posts-item-link">Cred selfies edison bulb four dollar toast humblebrag</a>
+                                            <div class="sidebar__posts-item-desc">
+                                                <span class="sidebar__posts-item-date">August 10, 2020</span> | <a href="#" class="sidebar__posts-item-autor">by Ann Summers</a>
+                                            </div>
+                                        </div>
+                                        <div class="sidebar__posts-item">
+                                            <a href="./single-post.html" class="sidebar__posts-item-link">Cred selfies edison bulb four dollar toast humblebrag</a>
+                                            <div class="sidebar__posts-item-desc">
+                                                <span class="sidebar__posts-item-date">August 10, 2020</span> | <a href="#" class="sidebar__posts-item-autor">by Ann Summers</a>
+                                            </div>
+                                        </div><div class="sidebar__posts-item">
+                                            <a href="./single-post.html" class="sidebar__posts-item-link">Cred selfies edison bulb four dollar toast humblebrag</a>
+                                            <div class="sidebar__posts-item-desc">
+                                                <span class="sidebar__posts-item-date">August 10, 2020</span> | <a href="#" class="sidebar__posts-item-autor">by Ann Summers</a>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
-                                <div class="sidebar__posts-item">
-                                    <a href="./single-post.html" class="sidebar__posts-item-link">Cred selfies edison bulb four dollar toast humblebrag</a>
-                                    <div class="sidebar__posts-item-desc">
-                                        <span class="sidebar__posts-item-date">August 10, 2020</span> | <a href="#" class="sidebar__posts-item-autor">by Ann Summers</a>
-                                    </div>
-                                </div><div class="sidebar__posts-item">
-                                    <a href="./single-post.html" class="sidebar__posts-item-link">Cred selfies edison bulb four dollar toast humblebrag</a>
-                                    <div class="sidebar__posts-item-desc">
-                                        <span class="sidebar__posts-item-date">August 10, 2020</span> | <a href="#" class="sidebar__posts-item-autor">by Ann Summers</a>
+                                <div class="sidebar__tags">
+                                    <h3 class="sidebar__tags-title">Tags</h3>
+                                    <div class="tags__list">
+                                        <div class="tags__item sidebar__tags-item sidebar__tags-item_active">Dining room futniture</div>
+                                        <div class="tags__item sidebar__tags-item">Chair</div>
+                                        <div class="tags__item sidebar__tags-item">Table</div>
+                                        <div class="tags__item sidebar__tags-item">Bedroom</div>
+                                        <div class="tags__item sidebar__tags-item">Office Furniture</div>
                                     </div>
                                 </div>
+                                <div class="sidebar__socials">
+                                    <a href="#" class="sidebar__socials-item"><img src="./images/facebook.svg" alt="facebook" class="sidebar__socials-img"></a>
+                                    <a href="#" class="sidebar__socials-item"><img src="./images/instagram.svg" alt="instagram" class="sidebar__socials-img"></a>
+                                    <a href="#" class="sidebar__socials-item"><img src="./images/pinterest.svg" alt="pinterest" class="sidebar__socials-img"></a>
+                                    <a href="#" class="sidebar__socials-item"><img src="./images/whatsapp.svg" alt="whatsapp" class="sidebar__socials-img"></a>
+                                    <a href="#" class="sidebar__socials-item"><img src="./images/twitter.svg" alt="twitter" class="sidebar__socials-img"></a>
+                                </div>
                             </div>
-                        </div>
-                        <div class="sidebar__tags">
-                            <h3 class="sidebar__tags-title">Tags</h3>
-                            <div class="tags__list">
-                                <div class="tags__item sidebar__tags-item sidebar__tags-item_active">Dining room futniture</div>
-                                <div class="tags__item sidebar__tags-item">Chair</div>
-                                <div class="tags__item sidebar__tags-item">Table</div>
-                                <div class="tags__item sidebar__tags-item">Bedroom</div>
-                                <div class="tags__item sidebar__tags-item">Office Furniture</div>
-                            </div>
-                        </div>
-                        <div class="sidebar__socials">
-                            <a href="#" class="sidebar__socials-item"><img src="./images/facebook.svg" alt="#" class="sidebar__socials-img"></a>
-                            <a href="#" class="sidebar__socials-item"><img src="./images/instagram.svg" alt="#" class="sidebar__socials-img"></a>
-                            <a href="#" class="sidebar__socials-item"><img src="./images/pinterest.svg" alt="#" class="sidebar__socials-img"></a>
-                            <a href="#" class="sidebar__socials-item"><img src="./images/whatsapp.svg" alt="#" class="sidebar__socials-img"></a>
-                            <a href="#" class="sidebar__socials-item"><img src="./images/twitter.svg" alt="#" class="sidebar__socials-img"></a>
                         </div>
                     </aside>
                 </div>

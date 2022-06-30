@@ -36,14 +36,19 @@
                     </ul>
                 </nav>
                 <button class="header__button"><img src="./images/icon_menu.svg" alt="icon menu"></button>
-                <div class="header__drop-menu">
+                
+            </div>
+            <div class="header__drop-menu">
                     <ul class="header__drop-list">
+                        <li class="header__drop-nav"><a href="./about.html" class="header__drop-link">About</a></li>
+                        <li class="header__drop-nav"><a href="./gallery.html" class="header__drop-link">Gallery</a></li>
+                        <li class="header__drop-nav"><a href="./blog.html" class="header__drop-link">Blog</a></li>
+                        <li class="header__drop-nav"><a href="./contact.html" class="header__drop-link">Contact</a></li>
                         <li class="header__drop-item"><a href="#" class="header__drop-link">Delivery</a></li>
                         <li class="header__drop-item"><a href="#" class="header__drop-link">FAQ</a></li>
                         <li class="header__drop-item"><a href="#" class="header__drop-link">Help</a></li>
                     </ul>
                 </div>
-            </div>
         </div>
         <div class="breadcrumbs">
             <div class="container">
@@ -62,13 +67,13 @@
                         <div class="blog-site__posts">
 
                             <div class="post">
-                                <img src="./images/blog-1.jpg" alt="-" class="post__img">
+                                <img src="./images/blog-1.jpg" alt="post image" class="post__img">
                                 <div class="post__description">
                                     <span class="post__date">August 15, 2020</span> | 
                                     <a href="#" class="post__autor">by Ann Summers</a> | 
                                     <span class="post__class">Bedroom Furniture</span>
                                 </div>
-                                <a href="#" class="post__link"><h2 class="post__title">Red selfies edison bulb four dollar toast humblebrag for the furniture</h2></a>
+                                <h2 class="post__title">Red selfies edison bulb four dollar toast humblebrag for the furniture</h2>
                                 <p class="post__text">Everyday carry actually neutra authentic kogi shabby chic migas small batch craft beer. Literally williamsburg tote bag farm-to-table mustache ugh deep v irony. Af man bun copper mug iPhone enamel pin pug selvage hammock palo santo godard thundercats coloring book yuccie woke. Ugh pok pok taxidermy pabst enamel pin edison bulb farm-to-table.</p>
                                 <p class="post__text">Yuccie portland kickstarter, readymade ramps humblebrag ennui banjo mumblecore vaporware pickled cray stumptown 8-bit mlkshk. Tumeric tousled austin, kinfolk scenester authentic craft beer truffaut irony intelligentsia YOLO lomo bushwick coloring book. Semiotics man bun venmo viral cliche. Tousled yr williamsburg austin edison bulb cloud bread vegan street art. Locavore food truck trust fund palo santo asymmetrical, franzen deep v marfa kogi whatever swag pop-up seitan.</p>
                             
@@ -100,7 +105,7 @@
                                     <h2 class="post__comments-title">Comments:</h2>
                                         <div class="comment__list">
                                             <article class="comment">
-                                                <img src="./images/comment-avatar.jpg" alt="-" class="comment__avatar">
+                                                <img src="./images/comment-avatar.jpg" alt="profile avatar" class="comment__avatar">
                                                 <div class="comment__content">
                                                     <h4 class="comment__name">Lea Brown</h4>
                                                     <span class="comment__date">August 12, 2020</span>
@@ -118,7 +123,7 @@
                                                 <input placeholder="Your e-mail" type="email" class="new-comment__email">
                                             </div>
                                             <div class="new-comment__remember">
-                                                <input type="checkbox" id="remember" name class="new-comment__remember-checkbox"> <label for="remember" class="new-comment__remember-label">Remember Me</label>
+                                                <input type="checkbox" id="remember" class="new-comment__remember-checkbox"> <label for="remember" class="new-comment__remember-label">Remember Me</label>
                                             </div>
                                             <button type="submit" class="new-comment__button">Submit</button>
                                          </form>
@@ -132,8 +137,11 @@
 
 
 
-                    <aside class="blog-site__sidebar">
-                        <div class="sidebar__search">
+                    <aside class="blog-site__sidebar blog-site__sidebar_active">
+                        <div class="blog-site__sidebar-inner">
+                            <div class="sidebar">
+                                <button class="sidebar__button"><span class="sidebar__button-text">Open</span></button>
+                                <div class="sidebar__search">
                             <input type="text" placeholder="Search" class="sidebar__search-input">
                             <button class="sidebar__search-button"></button>
                         </div>
@@ -181,12 +189,15 @@
                             </div>
                         </div>
                         <div class="sidebar__socials">
-                            <a href="#" class="sidebar__socials-item"><img src="./images/facebook.svg" alt="#" class="sidebar__socials-img"></a>
-                            <a href="#" class="sidebar__socials-item"><img src="./images/instagram.svg" alt="#" class="sidebar__socials-img"></a>
-                            <a href="#" class="sidebar__socials-item"><img src="./images/pinterest.svg" alt="#" class="sidebar__socials-img"></a>
-                            <a href="#" class="sidebar__socials-item"><img src="./images/whatsapp.svg" alt="#" class="sidebar__socials-img"></a>
-                            <a href="#" class="sidebar__socials-item"><img src="./images/twitter.svg" alt="#" class="sidebar__socials-img"></a>
+                            <a href="#" class="sidebar__socials-item"><img src="./images/facebook.svg" alt="facebook" class="sidebar__socials-img"></a>
+                            <a href="#" class="sidebar__socials-item"><img src="./images/instagram.svg" alt="instagram" class="sidebar__socials-img"></a>
+                            <a href="#" class="sidebar__socials-item"><img src="./images/pinterest.svg" alt="pinterest" class="sidebar__socials-img"></a>
+                            <a href="#" class="sidebar__socials-item"><img src="./images/whatsapp.svg" alt="whatsapp" class="sidebar__socials-img"></a>
+                            <a href="#" class="sidebar__socials-item"><img src="./images/twitter.svg" alt="twitter" class="sidebar__socials-img"></a>
                         </div>
+                            </div>
+                        </div>
+                        
                     </aside>
                 </div>
             </div>
